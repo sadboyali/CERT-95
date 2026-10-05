@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CERT 95 · عملية الأرشيف الصامت</title>
+<link rel="icon" href="/logo.png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<div class="shell">
+
+  <div class="brandbar">
+    <img class="logo" src="/logo.png" alt="CERT 95">
+    <div>
+      <div class="bname">CERT 95</div>
+      <div class="btag">منصّة التدريب على الأمن الهجومي — بيئة معزولة</div>
+    </div>
+    <div class="spacer"></div>
+    <a class="sol-link" href="../solutions/index.html" target="_blank">📖 دليل الحلول</a>
+  </div>
+
+  <header class="camp-head">
+    <div class="eyebrow">OPERATION · MR-024</div>
+    <h1>عملية الأرشيف الصامت</h1>
+    <div class="case">في الساعة 02:17 توقّف سجلّ أرشيف «مرصد». لم يُكسَر الباب — استُخدم مفتاح في المكان الخطأ. مهمتك: تتبّع أثر المخترق من بوابة الموقع حتى خزنته، فصلاً بعد فصل.</div>
+    <div class="rank">الرتبة: <b id="rank">متدرّب</b> <span id="rank-next"></span></div>
+    <div class="progress"><div class="progress-fill" id="pfill"></div></div>
+    <span class="count" id="count">00 / 13 فصلاً مكتملاً</span>
+  </header>
+
+  <div class="ethics">⚠️ بيئة تدريب محلية معزولة ببيانات اصطناعية. كل ثغرة <b>مقصودة</b> للتعلّم. لا shell حقيقي ولا تنفيذ على نظامك ولا اتصال خارجي. لا توجّه أي تقنية هنا إلى نظام لا تملك إذناً صريحاً باختباره.</div>
+
+  <div class="submit">
+    <input id="flag-input" aria-label="إدخال الفلاگ" placeholder="ATHAR{...}  ← ألصق فلاگ أي فصل هنا" autocomplete="off" spellcheck="false">
+    <button class="btn primary" id="flag-submit">تحقّق</button>
+  </div>
+  <div class="submit-msg" id="submit-msg"></div>
+
+  <div class="finale" id="finale">
+    <h2>🏁 اكتملت العملية</h2>
+    <p>تتبّعت الأثر من الألف إلى الياء وأغلقت كل فصل. تقرير القضية MR-024 جاهز. أحسنت أيها الخبير.</p>
+  </div>
+
+  <div class="chapters" id="chapters"></div>
+
+  <div class="foot">
+    <span>CERT 95 · عملية الأرشيف الصامت</span>
+    <span>الحلول الكاملة شريحة بشريحة: <a href="../solutions/index.html" target="_blank">دليل الحلول</a></span>
+  </div>
+</div>
+<script src="/campaign.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

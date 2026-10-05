@@ -1,0 +1,14 @@
+{
+  "name": "athar-lab",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ATHAR — مختبر تدريبي معزول بثغرات مقصودة (ويب/تشفير/هندسة عكسية/فورنسِك). Isolated, intentionally vulnerable security training lab.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

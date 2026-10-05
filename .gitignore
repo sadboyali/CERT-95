@@ -1,0 +1,22 @@
+# ── تبعيات ونظام ──
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# ── ملفات المختبر المولّدة تلقائياً عند الإقلاع (تتجدّد في كل تشغيل) ──
+lab/challenges/
+lab/sandbox/
+
+# ── المشروع القديم (مرجع محلي فقط — ثقيل ولا يُنشر) ──
+athar-lab/
+athar-briefing/
+instructor-tools/
+HOSTING-AR.md
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+
+# ── محرّر ──
+.vscode/

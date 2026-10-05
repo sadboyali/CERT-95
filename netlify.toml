@@ -1,0 +1,7 @@
+# إعداد Netlify — ينشر موقع الحلول الساكن فقط (مجلد solutions).
+# المختبر (lab) خادم Node حيّ ويُنشر على Render — راجع DEPLOY.md.
+[build]
+  publish = "solutions"
+  command = ""
+
+# موقع ساكن بحت: لا حاجة لأي بناء.

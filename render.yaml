@@ -1,0 +1,13 @@
+# إعداد Render (Blueprint) — يستضيف المختبر المصاب كخدمة Node مجانية.
+# يشغّل `node server.js` كما هو. Render يوفّر PORT تلقائياً، ونحدّد HOST=0.0.0.0.
+services:
+  - type: web
+    name: cert95-lab
+    runtime: node
+    plan: free
+    rootDir: lab
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
